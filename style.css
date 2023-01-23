@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo {
+    margin-left: 20px;
+}
+.content {
+    display: flex;
+    margin-left: 50px;
+}
+.content h6 {
+    color: white;
+    padding: 0 20px;
+    font-size: 15px;
+    font-family: gentona;
+}
+.buttons {
+    position: absolute;
+    right: 55px;
+}
+.buttons > button {
+    margin: 0 25px;
+    color: #16aa51;
+}
+button {
+    width: 80px;
+    height: 30px;
+}
+#btn1 {
+    background-color: #a89d9d;
+    color: #ffffff;
+}
+#btn2 {
+    background-color: #ffffff;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+}
+.content1 > div  {
+    width: 350px;
+    height: 450px;
+    /* border: 1px solid black; */
+}
+.image1 {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.image2 {
+    margin:50px 0 0 40px;
+}
+.info1 {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.info1 > h3 {
+    position: absolute;
+    top: 40px;
+    color: #16aa51;
+    font-family: Gentona ;
+    font-size: 18px;
+}
+.info1 > h5 {
+    position: absolute;
+    top: 70px;
+}
+.info1 > input {
+    height: 25px;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    border: 1px solid #16aa51;
+    border-radius: 6px;
+}
+.info1 > button {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 130px;
+    color: #ffffff;
+    background-color: #020202;
+    border-top: none; border-right: none; border-left: 3px solid #16aa51; border-bottom: 3px solid #16aa51;
+}
+#text1 {
+    color: #16aa51;
+}
+.info2 {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.info2 > h3 {
+    position: absolute;
+    top: 10px;
+    color: #16aa51;
+    font-family: Gentona ;
+    font-size: 18px;
+}
+.info2 > h5 {
+    position: absolute;
+    top: 40px;
+}
+.info2 > input {
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    border: 1px solid #16aa51;
+    border-radius: 6px;
+}
+.info2 > button {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    color: #ffffff;
+    background-color: #020202;
+    border-top: none; border-right: none; border-left: 3px solid #16aa51; border-bottom: 3px solid #16aa51;
+}
+#text2 {
+    color: #16aa51;
+}
+.info3 {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.info3 > h3 {
+    position: absolute;
+    top: 10px;
+    color: #16aa51;
+    font-family: Gentona ;
+    font-size: 18px;
+}
+.info3 > h5 {
+    position: absolute;
+    top: 40px;
+}
+.info3 > input {
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    border: 1px solid #16aa51;
+    border-radius: 6px;
+}
+.info3 > button {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    color: #ffffff;
+    background-color: #020202;
+    border-top: none; border-right: none; border-left: 3px solid #16aa51; border-bottom: 3px solid #16aa51;
+}
+#text2 {
+    color: #16aa51;
+}
+#electric {
+    color: #16aa51;
+}
+.footer {
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid black; */
+    background-color: #f2f4f6;
+    display: flex;
+    position: relative;
+}
+.social {
+    position: relative;
+    width: 350px;
+    height: 130px;
+    /* border: 1px solid black; */
+}
+#social1 {
+    position: absolute;
+    top: 30px;
+    left: 160px;
+}
+#social2 {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+#social3 {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+#social4 {
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+.result {
+    position: relative;
+}
+.result h2 {
+    left: 20px;
+    margin: 20px 0 0 50px;
+    color: #16aa51;
+}
+.book {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+.book > button {
+    width: 280px;
+    background-color: #020202;
+    color: #ffffff;
+    border-bottom: 3px solid #16aa51;
+    border-left: 3px solid #16aa51;
+}
+.login {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+.login > input {
+    width: 200px;
+    height: 25px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 8px;
+}
+.login > button {
+    margin-top: 15px;
+    width: 205px;
+    height: 25px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #020202;
+    border-left: 3px solid #16aa51;
+    border-bottom: 3px solid #16aa51;
+}
+#green {
+    color: #16aa51;
+}
+.thanks {
+    position: relative;
+}
+
+.sriki {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-left: 5px solid #16aa51;
+    border-bottom: 5px solid #16aa51;
+    background-color: #080808;
+    position: absolute;
+    top: -400px;
+    left : 300px
+}
+.sriki > h3 {
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+.sriki > button {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.bgblur {
+    opacity: 0.2;
+}
+.srikiblur {
+    opacity: 1;
+}
